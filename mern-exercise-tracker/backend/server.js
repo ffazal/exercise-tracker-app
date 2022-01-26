@@ -25,7 +25,6 @@ connection.once("open", () => {
 const exerciseRouter = require("./routes/exercises");
 const userRouter = require("./routes/users");
 
-// Creating the routes
 app.use("/exercises", exerciseRouter);
 app.use("/users", userRouter);
 
